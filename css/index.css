@@ -339,5 +339,55 @@ footer {
    h3 {
        padding-top: 4%;
    }
-   
+
     }
+
+
+    /* Desktop Approach */
+ /* At 400px And below do the following: */
+ @media (max-width: 400px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        border-bottom: 1px solid black;
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 1%;
+    }
+
+    .logo {
+        border-bottom: 1px solid black;
+    }
+
+    h1 {
+        font-size: 45pt;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    button {
+        padding: 2px 22px;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    address a {
+        border-bottom: none;
+    }
+
+}
